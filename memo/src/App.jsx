@@ -4,6 +4,8 @@ import Container from "./Container.jsx";
 import Button from "./Button";
 import Paragraph from "./Paragraph.jsx";
 
+import './App.css';
+
 function App() {
   return (
     <>
@@ -34,11 +36,11 @@ function App() {
 
       <div className="landingPage">
         <Heading
-          classname="headingtxt"
+          className="headingtxt"
           text="Developer centric memory board"
         ></Heading>
         <Paragraph
-          classname="desc"
+          className="desc"
           text="memo-ry lane and memo management website."
         ></Paragraph>
         <Button className="signupBtn" text="Signup" link="/signup"></Button>
@@ -58,7 +60,7 @@ function App() {
             <Container className="cntrdetails"></Container>
             <Heading className="title" text="Event canvas"></Heading>
             <Paragraph
-              classname="titledesc"
+              className="titledesc"
               text="manage event canvas"
             ></Paragraph>
             <Button className="cntrBtn" text="try" link="/signup"></Button>
@@ -70,7 +72,7 @@ function App() {
             <Container className="cntrdetails"></Container>
             <Heading className="title" text="Event canvas"></Heading>
             <Paragraph
-              classname="titledesc"
+              className="titledesc"
               text="manage event canvas"
             ></Paragraph>
             <Button className="cntrBtn" text="try" link="/signup"></Button>
@@ -109,7 +111,7 @@ function App() {
       {/* section 4 */}
 
     <div className="section4">
-      <Heading classname='section4Title' text='Get started now'></Heading>
+      <Heading className='section4Title' text='Get started now'></Heading>
       <Button className='signupsec4' text='Signup' link='/signup'></Button>
     </div>
 
