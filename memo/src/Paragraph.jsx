@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Paragraph({classname,text}) {
+function Paragraph({className,text}) {
   return (
     <>
-    <p className={classname}>{text}</p>
+    <p className={className}>{text}</p>
     </>
   )
 }

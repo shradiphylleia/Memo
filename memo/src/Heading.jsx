@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-function Heading({classname,text}) {
+function Heading({ className, text }) {
   return (
     <>
-    <h1 className={classname}>{text}</h1>
+      <h1 className={className}>{text}</h1>
     </>
-  )
+  );
 }
 
-export default Heading
+export default Heading;

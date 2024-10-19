@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Button(classname,link,text) {
+function Button({className,link,text}) {
   return (
-    <a className={classname} href={link}>{text}</a>
+    <a className={className} href={link}>{text}</a>
   )
 }
 

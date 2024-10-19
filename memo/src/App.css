@@ -1,0 +1,115 @@
+html{
+  margin-top: -2vh;
+  font-family: "Montserrat";
+
+}
+.landingPage {
+  filter: contrast(220%) brightness(200%);
+  background: radial-gradient(
+      circle at 50% 51%,
+      rgba(30, 30, 179, 1),
+      rgba(255, 255, 255, 0)
+    ),
+  url("data:image/svg+xml,%3Csvg viewBox='0 22 262 262' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='4.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  width: 100vw;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.headingtxt {
+  width:70vw;
+  height:10vh;
+  margin-top: 18vh;
+  font-size: 42px;
+  font-family: "Montserrat";
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  margin-left: 16vw;
+  margin-top:30vh;
+}
+
+
+.sign {
+  background-color: #000000;
+  width: 10vw;
+  height: 2vw;
+  padding:0.5%;
+  color: white;
+  cursor: pointer;
+  margin-left:44vw
+}
+
+.sign:hover {
+  background-color: #ffffff;
+  color: black;
+  font-weight: 600;
+}
+
+
+.landingSection2{
+  width: 100vw;
+  height: 90vh;
+  margin-top: 35vh;
+}
+
+.Features,.section3Heading{
+  width: 60vw;
+  height: 40vh;
+  font-family: "Montserrat";
+  font-size: 42px;
+  color: rgb(3, 3, 60);
+  margin-left:11vw;
+  margin-top:10vh;
+}
+
+.sectionContainer{
+  display:flex;
+  margin-left: 11vw;
+}
+
+.cntr{
+  width:32vw;
+  height:45vh;
+  background: rgb(29, 30, 125);
+  border-radius: 12px;
+  margin-right: 20vw;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 13px;
+}
+
+.title{
+  margin-top: 15vh;
+  margin-left: 2vw;
+}
+
+.titledesc{
+  margin-left: 2vw;
+}
+
+.section3{
+  margin-top: 70vh;
+  width:100vw;
+  height:80vh;
+  background-color: linen;
+  padding: 10px;
+  }
+
+
+  .cntrdiv{
+    display: flex;
+  }
+
+  .cntrSection3{
+    width: 20vw;
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    margin-left:10vw;
+    margin-top: -20vh;
+  }
+
+
