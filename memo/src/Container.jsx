@@ -1,13 +1,11 @@
-import React, { Children } from 'react'
+import React from 'react';
 
-function Container({classname}) {
+function Container({ className, children }) {
   return (
-    <>
-    <div className={classname}>
-        <Children></Children>
+    <div className={className}>
+      {children}
     </div>
-    </>
-  )
+  );
 }
 
-export default Container
+export default Container;
