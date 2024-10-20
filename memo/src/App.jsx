@@ -12,8 +12,6 @@ function App() {
   return (
     <>
       <div className="landingPage">
-        <AppLayout></AppLayout>
-
         <Heading
           className="headingtxt"
           text="Event centric memory & contact board"

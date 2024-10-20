@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button.jsx";
+import { Outlet } from 'react-router-dom';
 
 import "./AppLayout.css";
 
@@ -29,6 +30,8 @@ function AppLayout() {
           ></Button>
         </div>
       </div>
+
+      <Outlet />
     </>
   );
 }
