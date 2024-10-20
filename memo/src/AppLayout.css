@@ -35,3 +35,8 @@
       border-radius:10px;
       padding:5px;
     }
+
+    .quicklinks:hover{
+      text-decoration: underline;
+      font-style: italic;
+    }
