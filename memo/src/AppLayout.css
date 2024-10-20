@@ -3,8 +3,7 @@
     width: 100vw;
     height:1vh;
     display: flex;
-    position: fixed;
-    z-index: 100;
+    z-index:300;
     }
     
     
@@ -20,7 +19,7 @@
     
     .quicklinks{
       font-family: "Montserrat";
-      color:rgb(255, 255, 255);
+      color:rgb(0, 0, 0);
       text-decoration:none;
       font-size:18px;
       margin-right: 2vw;

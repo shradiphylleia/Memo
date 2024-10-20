@@ -1,0 +1,23 @@
+.aboutDiv{
+    margin-top:30vh;
+    margin-left:3vw;
+}
+
+.aboutDiv{
+    font-style: italic;
+    font-size:22px;
+}
+
+.aboutDiv p{
+    width: 40vw;
+    height:20vh;
+    font-size:18px;
+}
+
+.cntrAbout{
+    margin-top: 10vh;
+}
+
+.creator{
+    margin-top: 50vh;
+}
