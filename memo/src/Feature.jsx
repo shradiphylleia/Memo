@@ -1,10 +1,12 @@
 import React from "react";
 import Button from "./Button";
+import Camera from "./Camera";
 import "./Feature.css";
 
 function Feauter() {
   return (
     <>
+      <Camera></Camera>
       <div className="ftr">
         <div className="canvas">
           <div className="canvasdesc">
@@ -33,7 +35,6 @@ function Feauter() {
             </p>
           </div>
         </div>
-
         <div className="signcntr">
           <Button className="fsignup" link="/signup" text="try now"></Button>
           <h1>memo-ry</h1>

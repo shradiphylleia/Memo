@@ -1,9 +1,8 @@
 .navbar{
     margin-top: 5vh;
     width: 100vw;
-    height:1vh;
     display: flex;
-    z-index:300;
+    z-index:1;
     }
     
     

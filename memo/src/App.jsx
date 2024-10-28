@@ -91,8 +91,8 @@ function App() {
       {/* section 4 */}
 
       <div className="section4">
-        <Heading className="section4Title" text="Get started now"></Heading>
-        <Button className="signupsec4" text="Signup" link="/signup"></Button>
+      <Button className="signupsec4" text="Signup" link="/signup"></Button>
+      <Heading className="section4Title" text="Get started now"></Heading>
       </div>
     </>
   );

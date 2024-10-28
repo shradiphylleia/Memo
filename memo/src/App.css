@@ -23,7 +23,6 @@ html{
 .headingtxt {
   width:70vw;
   height:10vh;
-  margin-top: 18vh;
   font-size: 42px;
   font-family: "Montserrat";
   font-style: normal;
@@ -128,4 +127,35 @@ html{
     margin-top: 5vh;
   }
 
+
+  .section4{
+    margin-top: 45vh;
+    margin-left: 30vw;
+    filter: contrast(330%) brightness(200%);
+    background: radial-gradient(
+        circle at 60% 71%,
+        rgb(15, 15, 194),
+        rgba(4, 27, 85, 0)
+      ),
+    url("data:image/svg+xml,%3Csvg viewBox='0 22 262 362' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='4.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+      width: 40vw;
+      height: 25vw;
+      border-radius: 10px;
+  }
+
+  .section4Title{
+    border: 1px solid black;
+    margin-left: 22vw;
+    margin-top: 21vh;
+    width: 10vw;
+    height: 16vh;
+  }
+
+  .signupsec4{
+    text-decoration: none;
+    border: 1px solid black;
+    width: 20vw;
+    height: 11vh;
+    padding: 10px;
+}
 
