@@ -6,6 +6,7 @@ import Feature from './Feature.jsx'
 import Signup from './Signup.jsx'
 import NotFound from './NotFound.jsx'
 import AppLayout from './AppLayout.jsx'
+import Canvas from './Canvas.jsx'
 
 
 import {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path:"signup",
         element:<Signup/>
+      },
+      {
+        path:"canvas",
+        element:<Canvas/>
       },
       {
         path:"*",

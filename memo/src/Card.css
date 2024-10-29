@@ -1,0 +1,29 @@
+.imgCard{
+    position: absolute;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #add4fd;
+    border-radius: 5px;
+    max-width: 20vw;
+    max-height: 80vh;
+    min-height: 20vh;
+    min-width: 8vw;
+    cursor: pointer; 
+}
+
+.imgCard .image{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: -1vh;
+}
+
+.imageInfo{
+    margin-top: 10px;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.imageInfo p{
+    margin: 5px 0;
+}

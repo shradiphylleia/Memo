@@ -3,7 +3,7 @@ import Heading from "./Heading.jsx";
 import Container from "./Container.jsx";
 import Button from "./Button.jsx";
 import Paragraph from "./Paragraph.jsx";
-import AppLayout from "./AppLayout.jsx";
+
 
 import "./App.css";
 
