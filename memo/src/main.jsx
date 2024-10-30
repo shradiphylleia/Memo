@@ -7,6 +7,7 @@ import Signup from './Signup.jsx'
 import NotFound from './NotFound.jsx'
 import AppLayout from './AppLayout.jsx'
 import Canvas from './Canvas.jsx'
+import User from './User.jsx'
 
 
 import {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path:"canvas",
         element:<Canvas/>
+      },
+      {
+        path:"users",
+        element:<User/>
       },
       {
         path:"*",

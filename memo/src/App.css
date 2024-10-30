@@ -32,19 +32,23 @@ html{
 }
 
 
-.sign {
-  background-color: #000000;
-  width: 10vw;
-  height: 2vw;
-  padding:0.5%;
-  color: white;
+.signLanding {
+  background-color: #ffffff;
+  width: 11vw;
+  border: 1px solid black;
+  border-radius: 7px;
+  height: 1.8vw;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
   cursor: pointer;
-  margin-left:44vw
+  padding: 4px;
+  text-decoration: none;
+  margin-left: 44vw;
 }
 
-.sign:hover {
-  background-color: #ffffff;
-  color: black;
+.signLanding:hover {
+  background-color: #0f0e0e;
+  color: rgb(255, 255, 255);
   font-weight: 600;
 }
 

@@ -1,7 +1,8 @@
-.canvas {
+.canvasftr {
   display: flex;
-  margin-top: 85vh;
-  margin-left: 20vw;
+  margin-top: 30vh;
+  margin-left: 30vw;
+  border:none;
 }
 
 .canvasdesc {

@@ -1,18 +1,15 @@
 import React from "react";
 import Button from "./Button";
-import Camera from "./Camera";
 import "./Feature.css";
 
 function Feauter() {
   return (
     <>
-      <Camera></Camera>
       <div className="ftr">
-        <div className="canvas">
+        <div className="canvasftr">
           <div className="canvasdesc">
             <h1>Event Canvas</h1>
             <p>
-              {" "}
               As event organizers share canvas link with the attended who can
               add the highlights from their end. Allow the attendees to share
               event highlights.

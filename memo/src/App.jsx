@@ -16,7 +16,7 @@ function App() {
           className="headingtxt"
           text="Event centric memory & contact board"
         ></Heading>
-        <Button className="sign" text="Signup" link="/signup"></Button>
+        <Button className="signLanding" text="Signup" link="/signup"></Button>
       </div>
 
       <div className="landingSection2">
