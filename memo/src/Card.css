@@ -21,7 +21,7 @@
 .imageInfo{
     margin-top: 10px;
     display: block;
-    transition: opacity 0.3s ease;
+    transition: opacity 0s ease;
 }
 
 .imageInfo p{
